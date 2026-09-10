@@ -35,3 +35,8 @@ python src/verify.py --limit 1000000
 python src/verify.py --limit 10000000
 python src/verify.py --limit 50000000
 python src/verify.py --limit 100000000
+
+## License
+
+- **Code** (`src/` and scripts): [MIT License](LICENSE)
+- **Paper and documentation** (Markdown): [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
