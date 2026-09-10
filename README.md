@@ -36,6 +36,15 @@ python src/verify.py --limit 10000000
 python src/verify.py --limit 50000000
 python src/verify.py --limit 100000000
 ```
+
+### Related resources
+
+- The Erdős–Straus conjecture is listed as **problem 242** in the database of Erdős problems maintained by Terence Tao and collaborators:  
+  [erdosproblems.com](https://www.erdosproblems.com) · [GitHub repository](https://github.com/teorth/erdosproblems)
+
+- Related work on counting the number of solutions:  
+  C. Elsholtz & T. Tao, *Counting the number of solutions to the Erdős–Straus equation on unit fractions*, J. Aust. Math. Soc. 94 (2013), 50–105.
+  
 ## License
 
 - **Code** (`src/` and scripts): [MIT License](LICENSE)
