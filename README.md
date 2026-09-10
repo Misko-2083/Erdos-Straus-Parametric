@@ -21,7 +21,17 @@ indexed by integers \((k,g,u,v)\). The search for \((y,z)\) with fixed \(x\) red
 
 Full mathematical development (in Serbian) is in [`paper/erdos_straus_hiperbola.md`](paper/erdos_straus_hiperbola.md).
 
+English version 
+[`paper/erdos_straus_hiperbola_english.md`](paper/erdos_straus_hiperbola_english.md).
+
 ### Quick start – verification code
 
 ```bash
-python src/verify.py          # default limit 10^6 (or edit the call)
+# Default (limit = 10,000,000)
+python src/verify.py
+
+# Custom limits
+python src/verify.py --limit 1000000
+python src/verify.py --limit 10000000
+python src/verify.py --limit 50000000
+python src/verify.py --limit 100000000
